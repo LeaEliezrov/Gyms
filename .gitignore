@@ -1,0 +1,12 @@
+# תיקיות וקבצים של Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+# קבצי בינה (IDE) נוספים
+*.vs/
+*.vscode/
+*.code-workspace
