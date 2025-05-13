@@ -1,0 +1,9 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace DAL.models;
+
+public partial class Table
+{
+    public int Id { get; set; }
+}

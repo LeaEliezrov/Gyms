@@ -1,5 +1,6 @@
 ﻿using DAL.Api;
-using DAL.Models;
+using DAL.models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,14 @@ namespace DAL.Service
         }
         public void AddGymnast(Gymnast gymnast)
         {
-            _data.Gymnasts.Add(gymnast); 
+            _data.Gymnasts.Add(gymnast);
+            _data.SaveChanges(); // שמירה של השינויים
+            foreach (var item in _data.Gymnasts)
+            {
+                Console.WriteLine(item.LastName);
+            }
+
+
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using DAL.Models;
+﻿using DAL.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ namespace DAL.Api
 {
     public interface IDalService
     {
-        Gymnast FindGymnast(string username, int password);
-        public void AddGymnast(Gymnast gymnast);
+      public Gymnast FindGymnast(string username, int password);
+      public void AddGymnast(Gymnast gymnast);
     }
 }

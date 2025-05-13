@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using DAL.Api;
 using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Models;
+namespace DAL.models;
 
-public partial class dbClass : DbContext, IdbClass
+public partial class dbClass : DbContext
 {
     public dbClass()
     {
@@ -32,7 +31,7 @@ public partial class dbClass : DbContext, IdbClass
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename='H:\\Final Project\\Gyms\\DAL\\Data\\database.mdf';Integrated Security=True");
+        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename='C:\\Gyms\\DAL\\Data\\database.mdf';Integrated Security=True;Connect Timeout=30");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

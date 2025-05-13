@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DAL.Models;
+namespace DAL.models;
 
 public partial class Appointment
 {

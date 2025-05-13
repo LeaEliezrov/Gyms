@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Final Project\\Gyms\\DAL\\DAL.csproj": {}
+    "H:\\Gyms\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "H:\\Final Project\\Gyms\\DAL\\DAL.csproj": {
+    "H:\\Gyms\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Final Project\\Gyms\\DAL\\DAL.csproj",
+        "projectUniqueName": "H:\\Gyms\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "H:\\Final Project\\Gyms\\DAL\\DAL.csproj",
+        "projectPath": "H:\\Gyms\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\אליעזרוב שיינדל לאה\\.nuget\\packages\\",
-        "outputPath": "H:\\Final Project\\Gyms\\DAL\\obj\\",
+        "outputPath": "H:\\Gyms\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
