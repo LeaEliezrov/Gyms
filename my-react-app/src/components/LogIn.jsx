@@ -8,14 +8,13 @@ import {
   Alert,
   Fade,
   Divider,
-  AppBar,
-  Toolbar,
 } from '@mui/material';
 import { useNavigate } from "react-router-dom";
+import Navbar from "../components/Navbar"; // עדכן/י נתיב אם צריך
 
 const green = "#36b37e";
 const greenDark = "#23885a";
-const textMain = "#222"; // כהה עדין, לא שחור
+const textMain = "#222";
 const textLight = "#888";
 const lightGray = "#f7f7f7";
 const borderGray = "#e5e5e5";
@@ -125,7 +124,6 @@ const LoginComponent = () => {
     }
   };
 
-  // סטייל שדות הטופס (outline ירוק בפוקוס)
   const fieldSX = {
     '& .MuiOutlinedInput-root': {
       '& fieldset': {
@@ -157,91 +155,7 @@ const LoginComponent = () => {
         flexDirection: 'column'
       }}
     >
-      {/* AppBar */}
-      <AppBar
-        position="fixed"
-        elevation={0}
-        sx={{
-          background: "#fff",
-          color: textMain,
-          boxShadow: "0 2px 18px #00000010",
-          px: 2,
-        }}
-      >
-        <Toolbar sx={{ minHeight: 60, display: "flex", justifyContent: "space-between" }}>
-          <Typography
-            onClick={() => navigate("/")}
-            sx={{
-              fontFamily: "Montserrat, Arial, sans-serif",
-              fontWeight: 400, // רגיל
-              fontSize: "1.3rem",
-              letterSpacing: 2,
-              color: textMain,
-              cursor: "pointer",
-              "& span": { color: green }
-            }}
-          >
-            Gym <span>System</span>
-          </Typography>
-          <Box>
-            <Button
-              onClick={() => navigate("/")}
-              sx={{
-                color: textMain,
-                fontWeight: 400,
-                mx: 1,
-                fontFamily: "Montserrat, Arial, sans-serif",
-                fontSize: "1.01rem",
-                textTransform: "none",
-                borderRadius: 2,
-                "&:hover": { color: green, bgcolor: "#e2f7ee" }
-              }}
-            >Home</Button>
-            <Button
-              onClick={() => navigate("/about")}
-              sx={{
-                color: textMain,
-                fontWeight: 400,
-                mx: 1,
-                fontFamily: "Montserrat, Arial, sans-serif",
-                fontSize: "1.01rem",
-                textTransform: "none",
-                borderRadius: 2,
-                "&:hover": { color: green, bgcolor: "#e2f7ee" }
-              }}
-            >About</Button>
-            <Button
-              onClick={() => navigate("/register")}
-              sx={{
-                color: textMain,
-                fontWeight: 400,
-                mx: 1,
-                fontFamily: "Montserrat, Arial, sans-serif",
-                fontSize: "1.01rem",
-                textTransform: "none",
-                borderRadius: 2,
-                "&:hover": { color: green, bgcolor: "#e2f7ee" }
-              }}
-            >Register</Button>
-            <Button
-              onClick={() => navigate("/contact")}
-              sx={{
-                color: textMain,
-                fontWeight: 400,
-                mx: 1,
-                fontFamily: "Montserrat, Arial, sans-serif",
-                fontSize: "1.01rem",
-                textTransform: "none",
-                borderRadius: 2,
-                "&:hover": { color: green, bgcolor: "#e2f7ee" }
-              }}
-            >Contact</Button>
-          </Box>
-        </Toolbar>
-      </AppBar>
-
-      {/* Spacer for AppBar */}
-      <Box sx={{ height: 60 }} />
+      <Navbar />
 
       <Box
         sx={{
@@ -269,7 +183,7 @@ const LoginComponent = () => {
             align="center"
             sx={{
               color: textMain,
-              fontWeight: 400, // לא מודגש
+              fontWeight: 400,
               mb: 3,
               fontFamily: 'Montserrat, Arial, sans-serif',
               letterSpacing: 1.5,

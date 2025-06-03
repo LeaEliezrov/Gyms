@@ -1,7 +1,9 @@
 //import './App.css'
+import HomePage from "./components/HomePage";
 import LogIn from './components/LogIn'
+import Appointment from './components/Appointment'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-    import HomePage from "./components/HomePage";
+    
    
     // ...שאר הייבוא
 
@@ -15,6 +17,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/register" element={<LogIn />} />
+            <Route path="/appointment" element={<Appointment />} />
             {/* שאר הנתיבים */}
           </Routes>
         </Router>
