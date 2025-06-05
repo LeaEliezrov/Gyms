@@ -2910,11 +2910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Gyms\\BL\\BL.csproj",
+      "projectUniqueName": "D:\\Gyms\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "H:\\Gyms\\BL\\BL.csproj",
+      "projectPath": "D:\\Gyms\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\אליעזרוב שיינדל לאה\\.nuget\\packages\\",
-      "outputPath": "H:\\Gyms\\BL\\obj\\",
+      "outputPath": "D:\\Gyms\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2936,8 +2936,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "H:\\Gyms\\DAL\\DAL.csproj": {
-              "projectPath": "H:\\Gyms\\DAL\\DAL.csproj"
+            "D:\\Gyms\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Gyms\\DAL\\DAL.csproj"
             }
           }
         }

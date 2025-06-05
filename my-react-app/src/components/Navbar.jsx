@@ -17,6 +17,18 @@ const navBtnStyle = {
 export default function Navbar() {
   const navigate = useNavigate();
 
+<<<<<<< HEAD
+=======
+  const handlePersonalAreaClick = () => {
+    const token = localStorage.getItem('userToken');
+    if (!token) {
+      navigate("/login"); // Redirect to login if not authenticated
+    } else {
+      navigate("/personal-area"); // Redirect to personal area if authenticated
+    }
+  };
+
+>>>>>>> 23ed287 (update appointment func)
   return (
     <>
       <AppBar
@@ -70,6 +82,10 @@ export default function Navbar() {
             <Button onClick={() => navigate("/register")} sx={navBtnStyle}>Register</Button>
             <Button onClick={() => navigate("/contact")} sx={navBtnStyle}>Contact</Button>
             <Button onClick={() => navigate("/appointment")} sx={navBtnStyle}>Book Appointment</Button>
+<<<<<<< HEAD
+=======
+            <Button onClick={handlePersonalAreaClick} sx={navBtnStyle}>Personal Area</Button>
+>>>>>>> 23ed287 (update appointment func)
           </Box>
         </Toolbar>
       </AppBar>
@@ -77,4 +93,8 @@ export default function Navbar() {
       <Box sx={{ height: 60 }} />
     </>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 23ed287 (update appointment func)

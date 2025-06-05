@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using BL.Models;
 using DAL.models;
+
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
@@ -31,7 +32,9 @@ namespace Bl
             CreateMap<TrainerWorkingHour, BLTrainerWorkingHour>();
             CreateMap<BLTrainingType, TrainingType>();
             CreateMap<TrainingType, BLTrainingType>();
-            
+            CreateMap<BLHolidays, Holiday>();
+            CreateMap<Holiday, BLHolidays>();
+
 
 
 

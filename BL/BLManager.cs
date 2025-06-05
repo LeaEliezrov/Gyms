@@ -14,12 +14,12 @@ namespace BL
     public class BLManager:IBLManager
     {
        public IBLService _blService { get; }
-        
-       
-        public BLManager(IBLService blService)
+        public IBLAppointmentService _blappointmentService { get; }
+
+        public BLManager(IBLService blService, IBLAppointmentService blappointmentService)
         {
             _blService = blService;
-           
+            _blappointmentService = blappointmentService;
         }
      
     }

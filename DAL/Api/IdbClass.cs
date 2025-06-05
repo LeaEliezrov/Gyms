@@ -6,6 +6,10 @@ using System.Threading.Tasks;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 23ed287 (update appointment func)
 
     namespace DAL.Api
     {
@@ -17,6 +21,10 @@ using System.Threading.Tasks;
             DbSet<Gymnast> Gymnasts { get; }
             DbSet<TrainerWorkingHour> TrainerWorkingHours { get; }
             DbSet<TrainingType> TrainingTypes { get; }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 23ed287 (update appointment func)
 
             Task<int> SaveChangesAsync();
             // Add other methods you wish to expose, like:

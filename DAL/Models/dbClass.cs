@@ -23,7 +23,7 @@ public partial class dbClass : DbContext
 
     public virtual DbSet<Gymnast> Gymnasts { get; set; }
 
-    public virtual DbSet<Table> Tables { get; set; }
+    public virtual DbSet<Holiday> Tables { get; set; }
 
     public virtual DbSet<TrainerWorkingHour> TrainerWorkingHours { get; set; }
 
@@ -105,7 +105,7 @@ public partial class dbClass : DbContext
                 .IsFixedLength();
         });
 
-        modelBuilder.Entity<Table>(entity =>
+        modelBuilder.Entity<Holiday>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Table__3214EC07ECEF896A");
 

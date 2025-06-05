@@ -11,5 +11,6 @@ namespace DAL
     public interface IDALManager
     {
         public IDalService _dalService { get; }
+        public IDalAppointment _dalAppointment { get; }
     }
 }

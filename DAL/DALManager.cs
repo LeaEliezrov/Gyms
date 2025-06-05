@@ -12,10 +12,12 @@ namespace DAL
 {
     public class DALManager:IDALManager
     {
-       public IDalService _dalService {  get; }
-        public DALManager(IDalService dalService)
+       public IDalService _dalService { get; }
+       public IDalAppointment _dalAppointment { get;  }
+        public DALManager(IDalService dalService, IDalAppointment dalAppointment)
         {
             _dalService = dalService;
+            _dalAppointment = dalAppointment;
         }
       
     }

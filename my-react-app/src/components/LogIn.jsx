@@ -72,7 +72,13 @@ const LoginComponent = () => {
 
       if (response.ok) {
         setError('');
+<<<<<<< HEAD
         // TODO: handle login success
+=======
+        const data = await response.json();
+        localStorage.setItem('userToken', data.token); // Save token to local storage
+        navigate('/personal-area'); // Redirect to personal area after successful login
+>>>>>>> 23ed287 (update appointment func)
       } else {
         const text = await response.text();
         const data = text ? JSON.parse(text) : { message: "No content returned." };
@@ -101,7 +107,12 @@ const LoginComponent = () => {
       });
       if (response.ok) {
         setError('');
+<<<<<<< HEAD
         // TODO: handle registration success
+=======
+        alert("Successfully added to our team of trainers!"); // הודעת הצלחה
+        navigate('/personal-area'); // Redirect to personal area after successful registration
+>>>>>>> 23ed287 (update appointment func)
       } else {
         const text = await response.text();
         const data = text ? JSON.parse(text) : { message: "Registration failed." };

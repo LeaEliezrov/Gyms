@@ -12,6 +12,7 @@ namespace BL
     public interface IBLManager
     {
         public IBLService _blService { get; }
+        public  IBLAppointmentService _blappointmentService { get; }
 
       
     }

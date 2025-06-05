@@ -25,6 +25,11 @@ builder.Services.AddSingleton<IBLManager, BLManager>();
 builder.Services.AddSingleton<IDALManager, DALManager>();
 builder.Services.AddSingleton<IDalService, DalService>(); // הוסף את DalService
 builder.Services.AddSingleton<IBLService, BlService>(); // הוסף את BlService
+builder.Services.AddSingleton<IDalAppointment, DalAppointment>();
+builder.Services.AddSingleton<IBLAppointmentService, BLAppointmentService>();
+
+
+// הוספת Quartz לתזמון המשימות
 
 
 var app = builder.Build();
@@ -33,3 +38,4 @@ app.UseCors("AllowSpecificOrigin");
 app.MapGet("/", () => "Hello World!");
 app.MapControllers();
 app.Run();
+
