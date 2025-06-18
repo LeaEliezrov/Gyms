@@ -1,0 +1,227 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\bl\\api\\iblappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|solutionrelative:bl\\api\\iblappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\dal\\models\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|solutionrelative:dal\\models\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|solutionrelative:dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\dal\\idalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|solutionrelative:dal\\idalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9A59A4-852E-4D7C-8D3C-7C138EC87407}|WebApi\\WebApi.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9A59A4-852E-4D7C-8D3C-7C138EC87407}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\dal\\api\\idbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|solutionrelative:dal\\api\\idbclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\bl\\api\\iblservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|solutionrelative:bl\\api\\iblservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\bl\\iblmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|solutionrelative:bl\\iblmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\bl\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|solutionrelative:bl\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\bl\\service\\blservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|solutionrelative:bl\\service\\blservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C72486-0D7A-49EB-A1D7-666A7A80D410}|BL\\BL.csproj|solutionrelative:bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|c:\\users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\videos\\gyms\\dal\\service\\dalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB3B8C8B-9C2F-4F2E-A970-D383F0059478}|DAL\\DAL.csproj|solutionrelative:dal\\service\\dalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IBLAppointments.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\Api\\IBLAppointments.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBLAppointments.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\Api\\IBLAppointments.cs",
+              "RelativeToolTip": "BL\\Api\\IBLAppointments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:33:36.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Holiday.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\Models\\Holiday.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Holiday.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\Models\\Holiday.cs*",
+              "RelativeToolTip": "DAL\\Models\\Holiday.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:29:38.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\Service\\BlService.cs",
+              "RelativeDocumentMoniker": "BL\\Service\\BlService.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\Service\\BlService.cs",
+              "RelativeToolTip": "BL\\Service\\BlService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:39:57.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\Mapping.cs",
+              "RelativeDocumentMoniker": "BL\\Mapping.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\Mapping.cs",
+              "RelativeToolTip": "BL\\Mapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T18:44:06.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T18:44:34.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBLManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\IBLManager.cs",
+              "RelativeDocumentMoniker": "BL\\IBLManager.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\IBLManager.cs",
+              "RelativeToolTip": "BL\\IBLManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:13:20.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBLService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\Api\\IBLService.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBLService.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\Api\\IBLService.cs",
+              "RelativeToolTip": "BL\\Api\\IBLService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:39:45.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdbClass.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\Api\\IdbClass.cs",
+              "RelativeDocumentMoniker": "DAL\\Api\\IdbClass.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\Api\\IdbClass.cs",
+              "RelativeToolTip": "DAL\\Api\\IdbClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T17:01:59.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDALManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\IDALManager.cs",
+              "RelativeDocumentMoniker": "DAL\\IDALManager.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\IDALManager.cs",
+              "RelativeToolTip": "DAL\\IDALManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T18:41:44.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DALManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\DALManager.cs",
+              "RelativeDocumentMoniker": "DAL\\DALManager.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\DALManager.cs",
+              "RelativeToolTip": "DAL\\DALManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T18:29:16.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BLManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\BLManager.cs",
+              "RelativeDocumentMoniker": "BL\\BLManager.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\BL\\BLManager.cs",
+              "RelativeToolTip": "BL\\BLManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:13:19.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DalService.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\Service\\DalService.cs",
+              "RelativeDocumentMoniker": "DAL\\Service\\DalService.cs",
+              "ToolTip": "C:\\Users\\\u05D0\u05DC\u05D9\u05E2\u05D6\u05E8\u05D5\u05D1\\Videos\\Gyms\\DAL\\Service\\DalService.cs",
+              "RelativeToolTip": "DAL\\Service\\DalService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T17:28:47.238Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
